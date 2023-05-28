@@ -5,8 +5,8 @@ const app = express();
 const cookies = require("cookie-parser");
 app.use(cookies());
 
-const dotenv=require('dotenv');
-dotenv.config({path:'./config.env'})
+// const dotenv=require('dotenv');
+// dotenv.config({path:'./config.env'})
 
 
 
