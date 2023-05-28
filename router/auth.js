@@ -6,11 +6,11 @@ const authenticate = require("../middleware/authenticate")
 require('../db/conn');
 const User = require('../model/userSchema')
 const Collegemail =require('../model/collegeEmail')
-
+const DB = process.env.DATABASE;
 
 
 router.get('/', (req, res) => {
-    res.send('Hello world frm the router js');
+    res.send(`Hello world frm the router js ${DB}`);
 
 })
 
