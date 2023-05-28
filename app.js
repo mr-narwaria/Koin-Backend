@@ -1,11 +1,11 @@
 const mongoose= require('mongoose');
 const express= require('express');
 const app= express();
-const dotenv=require('dotenv');
+// const dotenv=require('dotenv');
 const authenticate=require('./middleware/authenticate')
 
 
-dotenv.config({path:'./config.env'})
+// dotenv.config({path:'./config.env'})
 
 const PORT= process.env.PORT;
 
